@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ''
   }    
   agent any
-  tools {maven "maven" }
+  tools {maven "Maven" }
   stages {
     stage('Cloning Git') {
       steps {
