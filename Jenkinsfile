@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        https://github.com/anilbathula9/sping-boot-hello-world.git'
+        git 'https://github.com/anilbathula9/spring-boot-hello-world.git'
       }
     }
        
