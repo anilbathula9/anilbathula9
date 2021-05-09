@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "cloudsofthyd/springboot"
+    registry = "anil79/springboot"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }    
@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/cloudsofthyd/docker-hello-world-spring-boot.git'
+        https://github.com/anilbathula9/sping-boot-hello-world.git'
       }
     }
        
